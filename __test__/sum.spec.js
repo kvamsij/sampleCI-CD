@@ -1,6 +1,5 @@
-const { sum } = require('../src/libs');
-
-const result = sum(1, 5);
+const { sum } = require('../libs');
+let result = sum(1, 5);
 
 describe('SUM', () => {
   it('should return number', () => {
