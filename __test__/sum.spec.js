@@ -1,12 +1,15 @@
 const { sum } = require('../libs');
+let result = sum(1, 5);
 
 describe('SUM', () => {
   it('should return number', () => {
-    const result = sum(1, 5);
     expect(Number.isInteger(result)).toBeTruthy();
   });
   it('should return 6 when passed 1, 5 as arguments', () => {
-    const result = sum(1, 5);
     expect(result).toEqual(6);
+  });
+
+  it('should must throw an error if the inputs not a number', () => {
+    expect(() => sum('a', 'b')).toThrowError('input values must be an integer');
   });
 });
