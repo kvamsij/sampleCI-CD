@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/kvamsij/sampleCI-CD/issues"
   },
-  "homepage": "https://github.com/kvamsij/sampleCI-CD#readme"
+  "homepage": "https://github.com/kvamsij/sampleCI-CD#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3"
+  }
 }
