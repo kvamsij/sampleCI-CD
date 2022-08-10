@@ -5,6 +5,8 @@ name: Publish Node Package to NPM
 
 on:
   release:
+    types: [created]
+  develop:
     types: [push]
 
 jobs:
