@@ -4,6 +4,12 @@ const sum = (a, b) => {
   }
   return a + b;
 };
-const average = (a, b) => (a + b) / 2;
+const average = (a, b) => {
+  if (!Number.isInteger(a) || !Number.isInteger(b)) {
+    throw new Error('input values must be an integer');
+  }
+
+  return (a + b) / 2;
+};
 
 module.exports = { sum, average };
