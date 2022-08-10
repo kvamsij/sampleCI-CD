@@ -12,4 +12,5 @@ describe('SUM', () => {
   it('should must throw an error if the inputs not a number', () => {
     expect(() => sum('a', 'b')).toThrowError('input values must be an integer');
   });
+  // testing
 });
