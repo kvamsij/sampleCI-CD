@@ -1,4 +1,4 @@
-const { average } = require('../libs');
+const { average } = require('../src/libs');
 
 const result = average(1, 5);
 
