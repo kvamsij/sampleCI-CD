@@ -1,4 +1,5 @@
 const { sum } = require('../libs');
+
 const result = sum(1, 5);
 
 describe('SUM', () => {
