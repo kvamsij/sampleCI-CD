@@ -1,4 +1,5 @@
 const { average } = require('../libs');
+
 const result = average(1, 5);
 
 describe('AVERAGE', () => {
