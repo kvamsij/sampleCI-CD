@@ -1,4 +1,4 @@
-const { sum } = require('../libs');
+const { sum } = require('../src/libs');
 
 const result = sum(1, 5);
 
