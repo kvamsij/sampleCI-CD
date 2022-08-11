@@ -1,6 +1,6 @@
 {
   "name": "sampleci-cd",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Sample CI/CD pipeline",
   "main": "dist/index.js",
   "scripts": {
