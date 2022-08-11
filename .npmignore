@@ -7,3 +7,4 @@ dist/
 .lintstagedrc.json
 .prettierrc.json
 .eslintrc.json
+.eslintignore
