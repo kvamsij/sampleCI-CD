@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx esbuild --bundle index.js --outdir=dist --minify --sourcemap",
+    "build": "npx esbuild --bundle index.js --outdir=dist --minify",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint .",
