@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../libs/index.js", "../index.js"],
+  "sourcesContent": ["const sum = (a, b) => {\n  if (!Number.isInteger(a) || !Number.isInteger(b)) {\n    throw new Error('input values must be an integer');\n  }\n  return a + b;\n};\nconst average = (a, b) => {\n  if (!Number.isInteger(a) || !Number.isInteger(b)) {\n    throw new Error('input values must be an integer');\n  }\n\n  return (a + b) / 2;\n};\n\nmodule.exports = { sum, average };\n", "const utils = require('./libs');\n\nmodule.exports = utils;\n"],
+  "mappings": "oEAAA,IAAAA,EAAAC,EAAA,CAAAC,EAAAC,IAAA,KAAMC,EAAM,CAACC,EAAGC,IAAM,CACpB,GAAI,CAAC,OAAO,UAAUD,CAAC,GAAK,CAAC,OAAO,UAAUC,CAAC,EAC7C,MAAM,IAAI,MAAM,iCAAiC,EAEnD,OAAOD,EAAIC,CACb,EACMC,EAAU,CAACF,EAAGC,IAAM,CACxB,GAAI,CAAC,OAAO,UAAUD,CAAC,GAAK,CAAC,OAAO,UAAUC,CAAC,EAC7C,MAAM,IAAI,MAAM,iCAAiC,EAGnD,OAAQD,EAAIC,GAAK,CACnB,EAEAH,EAAO,QAAU,CAAE,IAAAC,EAAK,QAAAG,CAAQ,ICdhC,IAAAC,EAAAC,EAAA,CAAAC,EAAAC,IAAA,KAAMC,EAAQ,IAEdD,EAAO,QAAUC",
+  "names": ["require_libs", "__commonJSMin", "exports", "module", "sum", "a", "b", "average", "require_sampleCI_CD", "__commonJSMin", "exports", "module", "utils"]
+}
