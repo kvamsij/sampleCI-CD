@@ -2,7 +2,7 @@
   "name": "sampleci-cd",
   "version": "1.0.6",
   "description": "Sample CI/CD pipeline",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "npx esbuild --bundle index.js --outdir=dist --minify",
     "test": "jest",
