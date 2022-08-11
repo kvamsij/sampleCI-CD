@@ -1,0 +1,10 @@
+node_modules/
+npm-token
+.github/
+.*.json
+__test__/
+dist/
+.lintstagedrc.json
+.prettierrc.json
+.eslintrc.json
+.eslintignore
