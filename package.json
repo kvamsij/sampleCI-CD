@@ -2,9 +2,13 @@
   "name": "sampleci-cd",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "build": "npx esbuild --bundle index.js --outdir=dist --minify --sourcemap",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/kvamsij/sampleCI-CD/issues"
   },
-  "homepage": "https://github.com/kvamsij/sampleCI-CD#readme"
+  "homepage": "https://github.com/kvamsij/sampleCI-CD#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.3"
+  }
 }
