@@ -3,8 +3,9 @@ npm-token
 .github/
 .*.json
 __test__/
-dist/
+src/
 .lintstagedrc.json
 .prettierrc.json
 .eslintrc.json
 .eslintignore
+.vscode
