@@ -4,7 +4,7 @@
   "description": "Sample CI/CD pipeline",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx esbuild --bundle src/index.js --outdir=dist --minify --sourcemap",
+    "build": "npx esbuild --bundle src/index.js --outdir=dist --minify --sourcemap --format=cjs",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint .",

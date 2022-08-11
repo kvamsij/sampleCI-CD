@@ -9,3 +9,4 @@ src/
 .eslintrc.json
 .eslintignore
 .vscode
+index.js
