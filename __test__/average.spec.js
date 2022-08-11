@@ -1,5 +1,5 @@
 const { average } = require('../libs');
-let result = average(1, 5);
+const result = average(1, 5);
 
 describe('AVERAGE', () => {
   it('should return number', () => {
